@@ -36,6 +36,7 @@
 		4E301F3227066B06008CFDEA /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
 		4EA0DABE27077ACB00A14B51 /* RacerSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerSerializer.swift; sourceTree = "<group>"; };
 		4EBC6E1026F70EE100978ED0 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		4ED636D42721EF330017E787 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		4E0CCADA26F654EB00BADC0C = {
 			isa = PBXGroup;
 			children = (
+				4ED636D42721EF330017E787 /* README.md */,
 				4E0CCAE526F654EB00BADC0C /* EasyLap */,
 				4E0CCAE426F654EB00BADC0C /* Products */,
 			);
