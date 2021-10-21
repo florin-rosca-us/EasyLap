@@ -1,7 +1,7 @@
 EasyLap
 =======
 
-A client for [easylap-server](https://github.com/florin-rosca-us/easylap-server).
+A iOS client for [easylap-server](https://github.com/florin-rosca-us/easylap-server).
 
 # Background
 [Kyosho MiniZ](http://kyosho.com/mini-z-info/) are awesome remote control (RC) cars that [can race](https://www.youtube.com/watch?v=bLIlTpBr_Ls).
