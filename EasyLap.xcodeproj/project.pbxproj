@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0CCAE726F654EB00BADC0C /* EasyLapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCAE626F654EB00BADC0C /* EasyLapApp.swift */; };
+		4E0CCAE926F654EB00BADC0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCAE826F654EB00BADC0C /* ContentView.swift */; };
+		4E0CCAEB26F654EC00BADC0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CCAEA26F654EC00BADC0C /* Assets.xcassets */; };
+		4E0CCAEE26F654EC00BADC0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0CCAED26F654EC00BADC0C /* Preview Assets.xcassets */; };
+		4E0CCAF626F6551E00BADC0C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCAF526F6551E00BADC0C /* Client.swift */; };
+		4E0CCAF826F67E7600BADC0C /* Racer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCAF726F67E7600BADC0C /* Racer.swift */; };
+		4E0CCAFA26F67F0200BADC0C /* RacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCAF926F67F0200BADC0C /* RacerView.swift */; };
+		4E0CCAFC26F6816C00BADC0C /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCAFB26F6816C00BADC0C /* Race.swift */; };
+		4E301F312703C2B0008CFDEA /* RaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E301F302703C2B0008CFDEA /* RaceView.swift */; };
+		4E301F3327066B06008CFDEA /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E301F3227066B06008CFDEA /* SetupView.swift */; };
+		4EA0DABF27077ACB00A14B51 /* RacerSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0DABE27077ACB00A14B51 /* RacerSerializer.swift */; };
+		4EBC6E1126F70EE100978ED0 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBC6E1026F70EE100978ED0 /* EditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E0CCAE326F654EB00BADC0C /* EasyLap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyLap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0CCAE626F654EB00BADC0C /* EasyLapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyLapApp.swift; sourceTree = "<group>"; };
+		4E0CCAE826F654EB00BADC0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E0CCAEA26F654EC00BADC0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E0CCAED26F654EC00BADC0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E0CCAEF26F654EC00BADC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0CCAF526F6551E00BADC0C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		4E0CCAF726F67E7600BADC0C /* Racer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racer.swift; sourceTree = "<group>"; };
+		4E0CCAF926F67F0200BADC0C /* RacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerView.swift; sourceTree = "<group>"; };
+		4E0CCAFB26F6816C00BADC0C /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		4E301F302703C2B0008CFDEA /* RaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceView.swift; sourceTree = "<group>"; };
+		4E301F3227066B06008CFDEA /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		4EA0DABE27077ACB00A14B51 /* RacerSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerSerializer.swift; sourceTree = "<group>"; };
+		4EBC6E1026F70EE100978ED0 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E0CCAE026F654EB00BADC0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E0CCADA26F654EB00BADC0C = {
+			isa = PBXGroup;
+			children = (
+				4E0CCAE526F654EB00BADC0C /* EasyLap */,
+				4E0CCAE426F654EB00BADC0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E0CCAE426F654EB00BADC0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CCAE326F654EB00BADC0C /* EasyLap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E0CCAE526F654EB00BADC0C /* EasyLap */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CCAEA26F654EC00BADC0C /* Assets.xcassets */,
+				4E0CCAE626F654EB00BADC0C /* EasyLapApp.swift */,
+				4E0CCAEF26F654EC00BADC0C /* Info.plist */,
+				4EBC6E0D26F7051400978ED0 /* Model */,
+				4EBC6E0E26F7051D00978ED0 /* Net */,
+				4E0CCAEC26F654EC00BADC0C /* Preview Content */,
+				4EBC6E0F26F7052B00978ED0 /* Views */,
+			);
+			path = EasyLap;
+			sourceTree = "<group>";
+		};
+		4E0CCAEC26F654EC00BADC0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CCAED26F654EC00BADC0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4EBC6E0D26F7051400978ED0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CCAFB26F6816C00BADC0C /* Race.swift */,
+				4E0CCAF726F67E7600BADC0C /* Racer.swift */,
+				4EA0DABE27077ACB00A14B51 /* RacerSerializer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EBC6E0E26F7051D00978ED0 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CCAF526F6551E00BADC0C /* Client.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		4EBC6E0F26F7052B00978ED0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CCAE826F654EB00BADC0C /* ContentView.swift */,
+				4EBC6E1026F70EE100978ED0 /* EditView.swift */,
+				4E0CCAF926F67F0200BADC0C /* RacerView.swift */,
+				4E301F302703C2B0008CFDEA /* RaceView.swift */,
+				4E301F3227066B06008CFDEA /* SetupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E0CCAE226F654EB00BADC0C /* EasyLap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0CCAF226F654EC00BADC0C /* Build configuration list for PBXNativeTarget "EasyLap" */;
+			buildPhases = (
+				4E0CCADF26F654EB00BADC0C /* Sources */,
+				4E0CCAE026F654EB00BADC0C /* Frameworks */,
+				4E0CCAE126F654EB00BADC0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyLap;
+			productName = EasyLap;
+			productReference = 4E0CCAE326F654EB00BADC0C /* EasyLap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E0CCADB26F654EB00BADC0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4E0CCAE226F654EB00BADC0C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E0CCADE26F654EB00BADC0C /* Build configuration list for PBXProject "EasyLap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E0CCADA26F654EB00BADC0C;
+			productRefGroup = 4E0CCAE426F654EB00BADC0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E0CCAE226F654EB00BADC0C /* EasyLap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E0CCAE126F654EB00BADC0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0CCAEE26F654EC00BADC0C /* Preview Assets.xcassets in Resources */,
+				4E0CCAEB26F654EC00BADC0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E0CCADF26F654EB00BADC0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0CCAE926F654EB00BADC0C /* ContentView.swift in Sources */,
+				4E0CCAE726F654EB00BADC0C /* EasyLapApp.swift in Sources */,
+				4E0CCAF626F6551E00BADC0C /* Client.swift in Sources */,
+				4EA0DABF27077ACB00A14B51 /* RacerSerializer.swift in Sources */,
+				4E0CCAF826F67E7600BADC0C /* Racer.swift in Sources */,
+				4E301F3327066B06008CFDEA /* SetupView.swift in Sources */,
+				4EBC6E1126F70EE100978ED0 /* EditView.swift in Sources */,
+				4E0CCAFC26F6816C00BADC0C /* Race.swift in Sources */,
+				4E0CCAFA26F67F0200BADC0C /* RacerView.swift in Sources */,
+				4E301F312703C2B0008CFDEA /* RaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E0CCAF026F654EC00BADC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E0CCAF126F654EC00BADC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E0CCAF326F654EC00BADC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyLap/Preview Content\"";
+				DEVELOPMENT_TEAM = XEJD59C4TN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EasyLap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.florin.EasyLap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E0CCAF426F654EC00BADC0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyLap/Preview Content\"";
+				DEVELOPMENT_TEAM = XEJD59C4TN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EasyLap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.florin.EasyLap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E0CCADE26F654EB00BADC0C /* Build configuration list for PBXProject "EasyLap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0CCAF026F654EC00BADC0C /* Debug */,
+				4E0CCAF126F654EC00BADC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0CCAF226F654EC00BADC0C /* Build configuration list for PBXNativeTarget "EasyLap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0CCAF326F654EC00BADC0C /* Debug */,
+				4E0CCAF426F654EC00BADC0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E0CCADB26F654EB00BADC0C /* Project object */;
+}
